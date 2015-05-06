@@ -1,0 +1,345 @@
+@font-face {
+  font-family: 'DIN-Black';
+  src: url('../fonts/DIN-Black.ttf')  format('truetype');
+      
+}
+
+@font-face {
+    font-family: 'DIN-Medium';
+  src: url('../fonts/DIN-Medium.ttf')  format('truetype');
+}
+
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+#container {
+  border: 70px solid #f9f9f9;
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0; 
+}
+
+
+
+/* 02. Typography -------------------------------------------------- */
+
+body, p, h1, h2, h3, h4, h5, a {
+  font-family: 'DIN-Medium', sans-serif;
+  color: #3a3a3a;
+}
+
+h1 {
+  font-size: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 96px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: -35px 0 35px 0;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+p.sub-header {
+  color: #8c8c8c;
+  font-size: 20px;
+  margin-bottom: 80px;
+}
+
+p.sub-header-small {
+  color: #8c8c8c;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+ 
+
+/* 04. Headers elements -------------------------------------------------- */
+
+.section-header {
+  text-align: center;
+  position: relative;
+  margin: 120px 0 0 0;
+}
+  .section-header p.header-number {
+    color: #b5b5b5;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    z-index: 11;
+  }
+
+span.section-header-line {
+  border-bottom: 2px solid #e1e1e1;
+  height: 2px;
+  width: 145px;
+  display: inline-block;
+  margin: 0 30px;
+  position: relative;
+  top: -4px;
+}
+
+.hexagon {
+  position: relative;
+  z-index: 10;
+  width: 36px;
+  height: 20.78px;
+  background-color: #fff;
+  margin: 10.39px auto;
+  top: -44px;
+  border-left: solid 3px #e1e1e1;
+  border-right: solid 3px #e1e1e1;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 25.46px;
+  height: 25.46px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 2.2721px;
+}
+
+.hexagon:before {
+  top: -12.7279px;
+  border-top: solid 4.2426px #e1e1e1;
+  border-right: solid 4.2426px #e1e1e1;
+}
+
+.hexagon:after {
+  bottom: -12.7279px;
+  border-bottom: solid 4.2426px #e1e1e1;
+  border-left: solid 4.2426px #e1e1e1;
+}
+ 
+
+
+/* 05. Navigation -------------------------------------------------- */
+
+header {
+  background: #f9f9f9;
+  margin-top: 0;
+  padding: 12px 0;
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+ 
+.menu-btn {
+  font-size: 26px;
+  text-align: right;
+  position: relative;
+  right: 70px;
+}
+  .menu-btn:hover {
+    cursor: pointer;
+  }
+
+
+/* 09. Separators -------------------------------------------------- */
+
+#separator-1, #separator-2 {
+  text-align: center;
+  padding-top: 70px;
+}
+
+#separator-1 {
+  background: url(../images/separator-1.jpg) 50% 0 repeat fixed;
+  background-size: 100%;
+  width: 100%;
+  height: 377px;
+  position: relative;
+  z-index: 10;
+}
+
+#separator-2 {
+  background: url(../images/separator-1.jpg) 50% 0 repeat fixed;
+  background-size: 100%;
+  width: 100%;
+  height: 377px;
+  position: relative;
+  z-index: 10;
+}
+
+p.separator-title {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+p.separator-text {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+
+  
+  
+.single-poster {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+  .single-poster hr {
+    border-top: 2px solid #dcdcdc;
+  }
+  .single-poster .logo {
+    color: #fff;
+    position: relative;
+    left: 0;
+  }
+    .single-poster .logo a {
+      color: #fff;
+    }
+
+.poster-left, .poster-right {
+  display: inline-block;
+  height: 150%;
+  width: 50%;
+  position: relative;
+  margin: 0;
+}
+
+.poster-left {
+  background: url(../images/poster1.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.poster-left-content {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 30px 45px 45px 45px;
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+}
+  .poster-left-content hr {
+    border-color: #fff;
+    margin-bottom: 60px;
+  }
+  .poster-left-content p {
+    color: #000;
+    text-align: right;
+    
+  }
+
+/*a.typeform-share {
+  background-color: green;
+}*/
+
+
+p.poster-info {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.poster-info img {
+  height: 20px;
+}
+
+p.poster-title {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.0em;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  left: 90px;
+}
+
+.poster-right {
+  background: #fff;
+  overflow: auto;
+  position: relative;
+}
+  .poster-right .menu-btn {
+    position: fixed;
+    z-index: 1000;
+    top: 40px;
+    right: 50px;
+  }
+  .poster-right hr {
+    margin-bottom: 15px;
+  }
+
+.poster-right-content {
+  height: 100%;
+  padding: 80px 50px 50px 50px;
+  position: absolute;
+  overflow: scroll;
+}
+
+p.poster-intro {
+  font-family: "DIN-Medium", sans-serif;
+  font-size: 25px;
+  line-height: 1.6em;
+  margin: 55px 0 55px 0;
+}
+
+p.poster-intro a {
+  text-decoration: underline;
+}
+
+ul.contact {
+  font-size: 20px;
+}
+ 
+
+
+ 

@@ -1,0 +1,129 @@
+
+
+/* 17. Media queries -------------------------------------------------- */
+
+@media only screen and (max-width: 1300px) {
+  #container {
+    border-left-width: 0px;
+    border-right-width: 0px;
+  }
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .text-intro {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  
+
+  .about-info img {
+    margin: 20px auto 50px auto;
+  }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  h1{
+    font-size: 250px;
+  }
+
+  
+  .poster-left, .poster-right {
+    display: block;
+    width: 100%;
+  }
+
+  .poster-right, .poster-right-content {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+  }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  h1  {
+    font-size: 180px;
+  }
+
+  .text-intro {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  
+}
+
+
+@media only screen and (max-width: 715px) {
+  .logo {
+    left: 10px;
+  }
+
+  .menu-btn {
+    right: 10px;
+  }
+
+  .text-intro {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  
+}
+
+
+@media only screen and (max-width: 530px) {
+  h1 {
+    font-size: 120px;
+  }
+
+  
+  ul.contact-info-list p {
+    font-size: 12px;
+  }
+
+  p.poster-title {
+    font-size: 50px;
+    left: 40px;
+  }
+
+  
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 450px) {
+  h1  {
+    font-size: 100px;
+  }
+
+  .section-header {
+    display: none;
+  }
+
+  p.separator-title {
+    font-size: 32px;
+  }
+
+  
+
+  p.poster-title {
+    font-size: 40px;
+  }
+
+  
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 80px;
+  }
+}

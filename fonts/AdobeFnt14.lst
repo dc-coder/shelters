@@ -1,0 +1,84 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DIN-Medium
+FamilyName:DIN Medium
+StyleName:Regular
+MenuName:DIN Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:DIN Medium
+WritingScript:Roman
+OutlineFileName:\DIN Medium.ttf
+DataFormat:sfntData
+FileLength:28944
+FileModTime:1259311504
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DIN-Black
+FamilyName:DIN-Black
+StyleName:Regular
+MenuName:DIN-Black
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:DIN-Black
+WritingScript:Roman
+OutlineFileName:\DIN-Black.ttf
+DataFormat:sfntData
+FileLength:39612
+FileModTime:1259311506
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:FedraArabic-Bold_beta
+FamilyName:Fedra Arabic
+StyleName:Bold (beta)
+MenuName:Fedra Arabic
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Fedra Arabic (beta) Bold
+FamilyNameNative:
+StyleNameNative:Bold (beta)
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:\Fedra Arabic Bold_beta.ttf
+DataFormat:sfntData
+FileLength:50276
+FileModTime:1194857448
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Asfalto
+FamilyName:Asfalto
+StyleName:Regular
+MenuName:Asfalto
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Asfalto
+WritingScript:Roman
+OutlineFileName:\Fernando Forero - Asfalto.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:654356
+FileModTime:1430755744
+%EndFont
+
