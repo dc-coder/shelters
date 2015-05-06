@@ -47,7 +47,7 @@ body {
 /* 02. Typography -------------------------------------------------- */
 
 body, p, h1, h2, h3, h4, h5, a {
-  font-family: 'DIN-Medium', sans-serif;
+  font-family:   sans-serif;
   color: #3a3a3a;
 }
 
@@ -326,7 +326,7 @@ p.poster-title {
 }
 
 p.poster-intro {
-  font-family: "DIN-Medium", sans-serif;
+  font-family:  sans-serif;
   font-size: 25px;
   line-height: 1.6em;
   margin: 55px 0 55px 0;
